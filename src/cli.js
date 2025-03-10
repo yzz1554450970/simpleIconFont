@@ -3,11 +3,11 @@ const yargs = require('yargs');
 
 yargs // eslint-disable-line
   .command(
-    'fetch',
-    'fech icons from iconfont',
+    'get',
+    'get icons from iconfont',
     {},
     () => {
-      require('./fetch')();
+      require('./get')();
     },
   )
   .command(
